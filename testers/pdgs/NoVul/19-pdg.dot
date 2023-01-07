@@ -1,0 +1,24 @@
+
+digraph "FUN3" {  
+
+"1891" [label = "(METHOD,FUN3)<SUB>33</SUB>" ]
+
+"1897" [label = "(METHOD_RETURN,void)<SUB>33</SUB>" ]
+
+"1892" [label = "(PARAM,VAR2 *VAR8)<SUB>33</SUB>" ]
+
+"1894" [label = "(FUN4,FUN4(&amp;VAR8))<SUB>35</SUB>" ]
+
+  "1892" -> "1897"  [ label = "DDG: VAR8"] 
+
+  "1894" -> "1897"  [ label = "DDG: &amp;VAR8"] 
+
+  "1894" -> "1897"  [ label = "DDG: FUN4(&amp;VAR8)"] 
+
+  "1891" -> "1892"  [ label = "DDG: "] 
+
+  "1892" -> "1894"  [ label = "DDG: VAR8"] 
+
+  "1891" -> "1894"  [ label = "DDG: "] 
+
+}

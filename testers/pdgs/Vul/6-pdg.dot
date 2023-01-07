@@ -1,0 +1,46 @@
+
+digraph "FUN13" {  
+
+"777" [label = "(METHOD,FUN13)<SUB>131</SUB>" ]
+
+"791" [label = "(METHOD_RETURN,int)<SUB>131</SUB>" ]
+
+"778" [label = "(PARAM,const void *VAR62)<SUB>131</SUB>" ]
+
+"779" [label = "(PARAM,const void *VAR63)<SUB>131</SUB>" ]
+
+"781" [label = "(RETURN,return *(const int16_t *)VAR62 - *(const int16_t *)VAR63;,return *(const int16_t *)VAR62 - *(const int16_t *)VAR63;)<SUB>133</SUB>" ]
+
+"782" [label = "(&lt;operator&gt;.subtraction,*(const int16_t *)VAR62 - *(const int16_t *)VAR63)<SUB>133</SUB>" ]
+
+"784" [label = "(&lt;operator&gt;.cast,(const int16_t *)VAR62)<SUB>133</SUB>" ]
+
+"788" [label = "(&lt;operator&gt;.cast,(const int16_t *)VAR63)<SUB>133</SUB>" ]
+
+  "781" -> "791"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "784" -> "791"  [ label = "DDG: VAR62"] 
+
+  "782" -> "791"  [ label = "DDG: *(const int16_t *)VAR62"] 
+
+  "788" -> "791"  [ label = "DDG: VAR63"] 
+
+  "782" -> "791"  [ label = "DDG: *(const int16_t *)VAR63"] 
+
+  "782" -> "791"  [ label = "DDG: *(const int16_t *)VAR62 - *(const int16_t *)VAR63"] 
+
+  "777" -> "778"  [ label = "DDG: "] 
+
+  "777" -> "779"  [ label = "DDG: "] 
+
+  "782" -> "781"  [ label = "DDG: *(const int16_t *)VAR62 - *(const int16_t *)VAR63"] 
+
+  "778" -> "784"  [ label = "DDG: VAR62"] 
+
+  "777" -> "784"  [ label = "DDG: "] 
+
+  "779" -> "788"  [ label = "DDG: VAR63"] 
+
+  "777" -> "788"  [ label = "DDG: "] 
+
+}

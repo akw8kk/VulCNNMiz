@@ -1,0 +1,96 @@
+void FUN1()
+{
+    int VAR1;
+    
+    VAR1 = -1;
+    if(FUN2())
+    {
+        {
+#ifdef VAR2
+            WSADATA VAR3;
+            int VAR4 = 0;
+#endif
+            int VAR5;
+            struct sockaddr_in VAR6;
+            SOCKET VAR7 = VAR8;
+            SOCKET VAR9 = VAR8;
+            char VAR10[VAR11];
+            do
+            {
+#ifdef VAR2
+                if (FUN3(FUN4(2,2), &VAR3) != VAR12)
+                {
+                    break;
+                }
+                VAR4 = 1;
+#endif
+                
+                VAR7 = socket(VAR13, VAR14, VAR15);
+                if (VAR7 == VAR8)
+                {
+                    break;
+                }
+                memset(&VAR6, 0, sizeof(VAR6));
+                VAR6.VAR16 = VAR13;
+                VAR6.VAR17.VAR18 = VAR19;
+                VAR6.VAR20 = FUN5(VAR21);
+                if (FUN6(VAR7, (struct VAR22*)&VAR6, sizeof(VAR6)) == VAR23)
+                {
+                    break;
+                }
+                if (FUN7(VAR7, VAR24) == VAR23)
+                {
+                    break;
+                }
+                VAR9 = FUN8(VAR7, NULL, NULL);
+                if (VAR9 == VAR23)
+                {
+                    break;
+                }
+                
+                VAR5 = recv(VAR9, VAR10, VAR11 - 1, 0);
+                if (VAR5 == VAR23 || VAR5 == 0)
+                {
+                    break;
+                }
+                
+                VAR10[VAR5] = '';
+                
+                VAR1 = FUN9(VAR10);
+            }
+            while (0);
+            if (VAR7 != VAR8)
+            {
+                FUN10(VAR7);
+            }
+            if (VAR9 != VAR8)
+            {
+                FUN10(VAR9);
+            }
+#ifdef VAR2
+            if (VAR4)
+            {
+                FUN11();
+            }
+#endif
+        }
+    }
+    else
+    {
+        
+        VAR1 = 100-1;
+    }
+    {
+        char VAR25[100];
+        char VAR26[100] = "";
+        memset(VAR25, '', 100-1);
+        VAR25[100-1] = '';
+        if (VAR1 < 100)
+        {
+            
+            memmove(VAR26, VAR25, VAR1);
+            VAR26[VAR1] = ''; 
+        }
+        FUN12(VAR26);
+    }
+}

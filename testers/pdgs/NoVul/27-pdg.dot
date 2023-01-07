@@ -1,0 +1,14 @@
+
+digraph "&lt;operator&gt;.postIncrement" {  
+
+"2051" [label = "(METHOD,&lt;operator&gt;.postIncrement)" ]
+
+"2054" [label = "(METHOD_RETURN,ANY)" ]
+
+"2052" [label = "(PARAM,p1)" ]
+
+  "2052" -> "2054"  [ label = "DDG: p1"] 
+
+  "2051" -> "2052"  [ label = "DDG: "] 
+
+}

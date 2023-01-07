@@ -1,0 +1,32 @@
+
+digraph "&lt;global&gt;" {  
+
+"5" [label = "(METHOD,&lt;global&gt;)<SUB>19</SUB>" ]
+
+"10083" [label = "(METHOD_RETURN,ANY)" ]
+
+"33" [label = "(&lt;operator&gt;.arrayInitializer,VAR19[10])<SUB>45</SUB>" ]
+
+"36" [label = "(&lt;operator&gt;.assignment,VAR20[10] =\012    { 60, 60, 24, 24, 31, 31, 12, 12, 31, 12 })<SUB>46</SUB>" ]
+
+"38" [label = "(&lt;operator&gt;.arrayInitializer,{ 60, 60, 24, 24, 31, 31, 12, 12, 31, 12 })<SUB>47</SUB>" ]
+
+  "33" -> "10083"  [ label = "DDG: VAR19[10]"] 
+
+  "36" -> "10083"  [ label = "DDG: VAR20"] 
+
+  "36" -> "10083"  [ label = "DDG: { 60, 60, 24, 24, 31, 31, 12, 12, 31, 12 }"] 
+
+  "38" -> "36"  [ label = "DDG: 12"] 
+
+  "38" -> "36"  [ label = "DDG: 31"] 
+
+  "38" -> "36"  [ label = "DDG: 60"] 
+
+  "38" -> "36"  [ label = "DDG: 24"] 
+
+  "5" -> "33"  [ label = "DDG: "] 
+
+  "5" -> "38"  [ label = "DDG: "] 
+
+}

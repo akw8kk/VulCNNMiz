@@ -1,0 +1,96 @@
+
+digraph "&lt;global&gt;" {  
+
+"10086" [label = "(METHOD,&lt;global&gt;)<SUB>15</SUB>" ]
+
+"11804" [label = "(METHOD_RETURN,ANY)" ]
+
+"11763" [label = "(&lt;operator&gt;.assignment,VAR93 = {\012    .VAR94           = &quot;&quot;,\012    .VAR95      = FUN39(&quot;&quot;),\012    .VAR96           = VAR97,\012    .VAR98             = VAR99,\012    .VAR100 = sizeof(VAR4),\012    .VAR101           = VAR102,\012    .close          = VAR103,\012    .VAR104         = VAR105,\012    .VAR106   = VAR107,\012})<SUB>533</SUB>" ]
+
+"11765" [label = "(&lt;operator&gt;.arrayInitializer,{\012    .VAR94           = &quot;&quot;,\012    .VAR95      = FUN39(&quot;&quot;),\012    .VAR96           = VAR97,\012    .VAR98             = VAR99,\012    .VAR100 = sizeof(VAR4),\012    .VAR101           = VAR102,\012    .close          = VAR103,\012    .VAR104         = VAR105,\012    .VAR106   = VAR107,\012})<SUB>533</SUB>" ]
+
+"11767" [label = "(&lt;operator&gt;.assignment,.VAR94           = &quot;&quot;)<SUB>534</SUB>" ]
+
+"11771" [label = "(&lt;operator&gt;.assignment,.VAR95      = FUN39(&quot;&quot;))<SUB>535</SUB>" ]
+
+"11776" [label = "(&lt;operator&gt;.assignment,.VAR96           = VAR97)<SUB>536</SUB>" ]
+
+"11780" [label = "(&lt;operator&gt;.assignment,.VAR98             = VAR99)<SUB>537</SUB>" ]
+
+"11784" [label = "(&lt;operator&gt;.assignment,.VAR100 = sizeof(VAR4))<SUB>538</SUB>" ]
+
+"11789" [label = "(&lt;operator&gt;.assignment,.VAR101           = VAR102)<SUB>539</SUB>" ]
+
+"11793" [label = "(&lt;operator&gt;.assignment,.close          = VAR103)<SUB>540</SUB>" ]
+
+"11797" [label = "(&lt;operator&gt;.assignment,.VAR104         = VAR105)<SUB>541</SUB>" ]
+
+"11801" [label = "(&lt;operator&gt;.assignment,.VAR106   = VAR107)<SUB>542</SUB>" ]
+
+"11773" [label = "(FUN39,FUN39(&quot;&quot;))<SUB>535</SUB>" ]
+
+"11786" [label = "(&lt;operator&gt;.sizeOf,sizeof(VAR4))<SUB>538</SUB>" ]
+
+  "11763" -> "11804"  [ label = "DDG: VAR93"] 
+
+  "11771" -> "11804"  [ label = "DDG: FUN39(&quot;&quot;)"] 
+
+  "11776" -> "11804"  [ label = "DDG: VAR96"] 
+
+  "11780" -> "11804"  [ label = "DDG: VAR99"] 
+
+  "11789" -> "11804"  [ label = "DDG: VAR101"] 
+
+  "11793" -> "11804"  [ label = "DDG: VAR103"] 
+
+  "11797" -> "11804"  [ label = "DDG: VAR104"] 
+
+  "11801" -> "11804"  [ label = "DDG: VAR106"] 
+
+  "11763" -> "11804"  [ label = "DDG: {\012    .VAR94           = &quot;&quot;,\012    .VAR95      = FUN39(&quot;&quot;),\012    .VAR96           = VAR97,\012    .VAR98             = VAR99,\012    .VAR100 = sizeof(VAR4),\012    .VAR101           = VAR102,\012    .close          = VAR103,\012    .VAR104         = VAR105,\012    .VAR106   = VAR107,\012}"] 
+
+  "11786" -> "11804"  [ label = "DDG: VAR4"] 
+
+  "11771" -> "11804"  [ label = "DDG: VAR95"] 
+
+  "11784" -> "11804"  [ label = "DDG: VAR100"] 
+
+  "11780" -> "11804"  [ label = "DDG: VAR98"] 
+
+  "11793" -> "11804"  [ label = "DDG: close"] 
+
+  "11767" -> "11804"  [ label = "DDG: VAR94"] 
+
+  "11801" -> "11804"  [ label = "DDG: VAR107"] 
+
+  "11776" -> "11804"  [ label = "DDG: VAR97"] 
+
+  "11797" -> "11804"  [ label = "DDG: VAR105"] 
+
+  "11789" -> "11804"  [ label = "DDG: VAR102"] 
+
+  "11765" -> "11763"  [ label = "DDG: &lt;empty&gt;"] 
+
+  "11765" -> "11763"  [ label = "DDG: "] 
+
+  "10086" -> "11765"  [ label = "DDG: "] 
+
+  "10086" -> "11767"  [ label = "DDG: "] 
+
+  "11773" -> "11771"  [ label = "DDG: &quot;&quot;"] 
+
+  "10086" -> "11776"  [ label = "DDG: "] 
+
+  "10086" -> "11780"  [ label = "DDG: "] 
+
+  "10086" -> "11789"  [ label = "DDG: "] 
+
+  "10086" -> "11793"  [ label = "DDG: "] 
+
+  "10086" -> "11797"  [ label = "DDG: "] 
+
+  "10086" -> "11801"  [ label = "DDG: "] 
+
+  "10086" -> "11773"  [ label = "DDG: "] 
+
+}

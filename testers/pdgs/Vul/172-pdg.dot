@@ -1,0 +1,20 @@
+
+digraph "&lt;operator&gt;.or" {  
+
+"15084" [label = "(METHOD,&lt;operator&gt;.or)" ]
+
+"15088" [label = "(METHOD_RETURN,ANY)" ]
+
+"15085" [label = "(PARAM,p1)" ]
+
+"15086" [label = "(PARAM,p2)" ]
+
+  "15085" -> "15088"  [ label = "DDG: p1"] 
+
+  "15086" -> "15088"  [ label = "DDG: p2"] 
+
+  "15084" -> "15085"  [ label = "DDG: "] 
+
+  "15084" -> "15086"  [ label = "DDG: "] 
+
+}

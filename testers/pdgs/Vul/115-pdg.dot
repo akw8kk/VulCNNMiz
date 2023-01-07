@@ -1,0 +1,20 @@
+
+digraph "&lt;operator&gt;.and" {  
+
+"14727" [label = "(METHOD,&lt;operator&gt;.and)" ]
+
+"14731" [label = "(METHOD_RETURN,ANY)" ]
+
+"14728" [label = "(PARAM,p1)" ]
+
+"14729" [label = "(PARAM,p2)" ]
+
+  "14728" -> "14731"  [ label = "DDG: p1"] 
+
+  "14729" -> "14731"  [ label = "DDG: p2"] 
+
+  "14727" -> "14728"  [ label = "DDG: "] 
+
+  "14727" -> "14729"  [ label = "DDG: "] 
+
+}

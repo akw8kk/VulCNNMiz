@@ -1,0 +1,14 @@
+
+digraph "&lt;operator&gt;.minus" {  
+
+"2039" [label = "(METHOD,&lt;operator&gt;.minus)" ]
+
+"2042" [label = "(METHOD_RETURN,ANY)" ]
+
+"2040" [label = "(PARAM,p1)" ]
+
+  "2040" -> "2042"  [ label = "DDG: p1"] 
+
+  "2039" -> "2040"  [ label = "DDG: "] 
+
+}

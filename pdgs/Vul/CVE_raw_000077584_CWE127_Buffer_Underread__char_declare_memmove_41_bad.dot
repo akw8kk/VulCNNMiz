@@ -1,0 +1,17 @@
+digraph FUN1 {  
+"1000100" [label = "(METHOD,FUN1)" ]
+"1000111" [label = "(METHOD_RETURN,void)" ]
+"1000104" [label = "(<operator>.assignment,VAR1 = VAR2 - 8)" ]
+"1000106" [label = "(<operator>.subtraction,VAR2 - 8)" ]
+"1000109" [label = "(FUN2,FUN2(VAR1))" ]
+  "1000106" -> "1000111"  [ label = "DDG: VAR2"] 
+  "1000109" -> "1000111"  [ label = "DDG: VAR1"] 
+  "1000104" -> "1000111"  [ label = "DDG: VAR2 - 8"] 
+  "1000109" -> "1000111"  [ label = "DDG: FUN2(VAR1)"] 
+  "1000106" -> "1000104"  [ label = "DDG: VAR2"] 
+  "1000106" -> "1000104"  [ label = "DDG: 8"] 
+  "1000100" -> "1000104"  [ label = "DDG: "] 
+  "1000100" -> "1000106"  [ label = "DDG: "] 
+  "1000104" -> "1000109"  [ label = "DDG: VAR1"] 
+  "1000100" -> "1000109"  [ label = "DDG: "] 
+}

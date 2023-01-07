@@ -1,0 +1,40 @@
+
+digraph "FUN1" {  
+
+"7" [label = "(METHOD,FUN1)<SUB>11</SUB>" ]
+
+"15" [label = "(METHOD_RETURN,int)<SUB>11</SUB>" ]
+
+"8" [label = "(PARAM,const uint8_t *VAR6)<SUB>11</SUB>" ]
+
+"9" [label = "(PARAM,uint32_t *VAR8)<SUB>11</SUB>" ]
+
+"10" [label = "(PARAM,uint8_t *VAR9)<SUB>11</SUB>" ]
+
+"12" [label = "(RETURN,return FUN4(VAR16);,return FUN4(VAR16);)<SUB>26</SUB>" ]
+
+"13" [label = "(FUN4,FUN4(VAR16))<SUB>26</SUB>" ]
+
+  "12" -> "15"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "8" -> "15"  [ label = "DDG: VAR6"] 
+
+  "9" -> "15"  [ label = "DDG: VAR8"] 
+
+  "10" -> "15"  [ label = "DDG: VAR9"] 
+
+  "13" -> "15"  [ label = "DDG: FUN4(VAR16)"] 
+
+  "13" -> "15"  [ label = "DDG: VAR16"] 
+
+  "7" -> "8"  [ label = "DDG: "] 
+
+  "7" -> "9"  [ label = "DDG: "] 
+
+  "7" -> "10"  [ label = "DDG: "] 
+
+  "13" -> "12"  [ label = "DDG: FUN4(VAR16)"] 
+
+  "7" -> "13"  [ label = "DDG: "] 
+
+}

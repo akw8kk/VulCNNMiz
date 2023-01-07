@@ -1,0 +1,20 @@
+
+digraph "FUN5" {  
+
+"1899" [label = "(METHOD,FUN5)<SUB>38</SUB>" ]
+
+"1907" [label = "(METHOD_RETURN,void)<SUB>38</SUB>" ]
+
+"1900" [label = "(PARAM,VAR2 *VAR8)<SUB>38</SUB>" ]
+
+"1902" [label = "(&lt;operator&gt;.assignment,VAR8-&gt;VAR7 = 0)<SUB>40</SUB>" ]
+
+  "1900" -> "1907"  [ label = "DDG: VAR8"] 
+
+  "1902" -> "1907"  [ label = "DDG: VAR8-&gt;VAR7"] 
+
+  "1899" -> "1900"  [ label = "DDG: "] 
+
+  "1899" -> "1902"  [ label = "DDG: "] 
+
+}

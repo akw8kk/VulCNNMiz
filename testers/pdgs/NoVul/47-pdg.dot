@@ -1,0 +1,14 @@
+
+digraph "&lt;operator&gt;.sizeOf" {  
+
+"2148" [label = "(METHOD,&lt;operator&gt;.sizeOf)" ]
+
+"2151" [label = "(METHOD_RETURN,ANY)" ]
+
+"2149" [label = "(PARAM,p1)" ]
+
+  "2149" -> "2151"  [ label = "DDG: p1"] 
+
+  "2148" -> "2149"  [ label = "DDG: "] 
+
+}

@@ -1,0 +1,7 @@
+digraph FUN1 {  
+"1000100" [label = "(METHOD,FUN1)" ]
+"1000103" [label = "(METHOD_RETURN,void)" ]
+"1000102" [label = "(FUN2,FUN2())" ]
+  "1000102" -> "1000103"  [ label = "DDG: FUN2()"] 
+  "1000100" -> "1000102"  [ label = "DDG: "] 
+}

@@ -1,0 +1,19 @@
+static void FUN1()
+{
+    wchar_t * VAR1;
+    wchar_t VAR2[50];
+    wchar_t VAR3[100];
+    goto VAR4;
+VAR4:
+    
+    VAR1 = VAR3;
+    VAR1[0] = VAR5''; 
+    {
+        wchar_t VAR4[100];
+        wmemset(VAR4, VAR5'', 100-1); 
+        VAR4[100-1] = VAR5''; 
+        
+        wcscpy(VAR1, VAR4);
+        FUN2(VAR1);
+    }
+}

@@ -1,0 +1,20 @@
+
+digraph "&lt;operator&gt;.assignmentPlus" {  
+
+"2139" [label = "(METHOD,&lt;operator&gt;.assignmentPlus)" ]
+
+"2143" [label = "(METHOD_RETURN,ANY)" ]
+
+"2140" [label = "(PARAM,p1)" ]
+
+"2141" [label = "(PARAM,p2)" ]
+
+  "2140" -> "2143"  [ label = "DDG: p1"] 
+
+  "2141" -> "2143"  [ label = "DDG: p2"] 
+
+  "2139" -> "2140"  [ label = "DDG: "] 
+
+  "2139" -> "2141"  [ label = "DDG: "] 
+
+}

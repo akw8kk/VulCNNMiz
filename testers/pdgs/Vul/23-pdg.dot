@@ -1,0 +1,250 @@
+
+digraph "FUN43" {  
+
+"4748" [label = "(METHOD,FUN43)<SUB>876</SUB>" ]
+
+"4838" [label = "(METHOD_RETURN,void)<SUB>876</SUB>" ]
+
+"4749" [label = "(PARAM,AACContext *VAR55)<SUB>876</SUB>" ]
+
+"4750" [label = "(PARAM,SpectralBandReplication *VAR46)<SUB>876</SUB>" ]
+
+"4751" [label = "(PARAM,GetBitContext *VAR84)<SUB>877</SUB>" ]
+
+"4752" [label = "(PARAM,int VAR184)<SUB>878</SUB>" ]
+
+"4753" [label = "(PARAM,int *VAR185)<SUB>878</SUB>" ]
+
+"4756" [label = "(IDENTIFIER,VAR184,switch(VAR184))<SUB>880</SUB>" ]
+
+"4759" [label = "(IDENTIFIER,VAR18,&lt;empty&gt;)<SUB>881</SUB>" ]
+
+"4829" [label = "(FUN44,FUN44(VAR84, *VAR185))<SUB>895</SUB>" ]
+
+"4833" [label = "(&lt;operator&gt;.assignment,*VAR185 = 0)<SUB>896</SUB>" ]
+
+"4761" [label = "(&lt;operator&gt;.logicalNot,!VAR55-&gt;VAR186[1].VAR187.VAR60)<SUB>882</SUB>" ]
+
+"4812" [label = "(&lt;operator&gt;.logicalOr,VAR184 || *VAR185 &gt; 16 || FUN46(VAR84, *VAR185))<SUB>893</SUB>" ]
+
+"4772" [label = "(FUN28,FUN28(VAR55-&gt;VAR112, VAR114, &quot;&quot;))<SUB>883</SUB>" ]
+
+"4778" [label = "(FUN44,FUN44(VAR84, *VAR185))<SUB>884</SUB>" ]
+
+"4782" [label = "(&lt;operator&gt;.assignment,*VAR185 = 0)<SUB>885</SUB>" ]
+
+"4824" [label = "(FUN47,FUN47(VAR55-&gt;VAR112, &quot;&quot;))<SUB>894</SUB>" ]
+
+"4788" [label = "(&lt;operator&gt;.assignmentMinus,*VAR185 -= FUN45(VAR55-&gt;VAR112, VAR84, &amp;VAR46-&gt;VAR60, *VAR185))<SUB>887</SUB>" ]
+
+"4802" [label = "(&lt;operator&gt;.assignment,VAR55-&gt;VAR112-&gt;VAR188 = VAR189)<SUB>888</SUB>" ]
+
+"4813" [label = "(&lt;operator&gt;.logicalOr,VAR184 || *VAR185 &gt; 16)<SUB>893</SUB>" ]
+
+"4819" [label = "(FUN46,FUN46(VAR84, *VAR185))<SUB>893</SUB>" ]
+
+"4815" [label = "(&lt;operator&gt;.greaterThan,*VAR185 &gt; 16)<SUB>893</SUB>" ]
+
+"4791" [label = "(FUN45,FUN45(VAR55-&gt;VAR112, VAR84, &amp;VAR46-&gt;VAR60, *VAR185))<SUB>887</SUB>" ]
+
+"4773" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR55-&gt;VAR112)<SUB>883</SUB>" ]
+
+"4780" [label = "(&lt;operator&gt;.indirection,*VAR185)<SUB>884</SUB>" ]
+
+"4783" [label = "(&lt;operator&gt;.indirection,*VAR185)<SUB>885</SUB>" ]
+
+"4821" [label = "(&lt;operator&gt;.indirection,*VAR185)<SUB>893</SUB>" ]
+
+"4825" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR55-&gt;VAR112)<SUB>894</SUB>" ]
+
+"4775" [label = "(FIELD_IDENTIFIER,VAR112,VAR112)<SUB>883</SUB>" ]
+
+"4789" [label = "(&lt;operator&gt;.indirection,*VAR185)<SUB>887</SUB>" ]
+
+"4803" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR55-&gt;VAR112-&gt;VAR188)<SUB>888</SUB>" ]
+
+"4827" [label = "(FIELD_IDENTIFIER,VAR112,VAR112)<SUB>894</SUB>" ]
+
+"4792" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR55-&gt;VAR112)<SUB>887</SUB>" ]
+
+"4796" [label = "(&lt;operator&gt;.addressOf,&amp;VAR46-&gt;VAR60)<SUB>887</SUB>" ]
+
+"4800" [label = "(&lt;operator&gt;.indirection,*VAR185)<SUB>887</SUB>" ]
+
+"4804" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR55-&gt;VAR112)<SUB>888</SUB>" ]
+
+"4807" [label = "(FIELD_IDENTIFIER,VAR188,VAR188)<SUB>888</SUB>" ]
+
+"4794" [label = "(FIELD_IDENTIFIER,VAR112,VAR112)<SUB>887</SUB>" ]
+
+"4797" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR46-&gt;VAR60)<SUB>887</SUB>" ]
+
+"4806" [label = "(FIELD_IDENTIFIER,VAR112,VAR112)<SUB>888</SUB>" ]
+
+"4799" [label = "(FIELD_IDENTIFIER,VAR60,VAR60)<SUB>887</SUB>" ]
+
+  "4749" -> "4838"  [ label = "DDG: VAR55"] 
+
+  "4750" -> "4838"  [ label = "DDG: VAR46"] 
+
+  "4752" -> "4838"  [ label = "DDG: VAR184"] 
+
+  "4753" -> "4838"  [ label = "DDG: VAR185"] 
+
+  "4761" -> "4838"  [ label = "DDG: VAR55-&gt;VAR186[1].VAR187.VAR60"] 
+
+  "4761" -> "4838"  [ label = "DDG: !VAR55-&gt;VAR186[1].VAR187.VAR60"] 
+
+  "4788" -> "4838"  [ label = "DDG: *VAR185"] 
+
+  "4791" -> "4838"  [ label = "DDG: VAR55-&gt;VAR112"] 
+
+  "4791" -> "4838"  [ label = "DDG: VAR84"] 
+
+  "4791" -> "4838"  [ label = "DDG: &amp;VAR46-&gt;VAR60"] 
+
+  "4788" -> "4838"  [ label = "DDG: FUN45(VAR55-&gt;VAR112, VAR84, &amp;VAR46-&gt;VAR60, *VAR185)"] 
+
+  "4802" -> "4838"  [ label = "DDG: VAR55-&gt;VAR112-&gt;VAR188"] 
+
+  "4772" -> "4838"  [ label = "DDG: VAR55-&gt;VAR112"] 
+
+  "4772" -> "4838"  [ label = "DDG: FUN28(VAR55-&gt;VAR112, VAR114, &quot;&quot;)"] 
+
+  "4778" -> "4838"  [ label = "DDG: VAR84"] 
+
+  "4778" -> "4838"  [ label = "DDG: FUN44(VAR84, *VAR185)"] 
+
+  "4782" -> "4838"  [ label = "DDG: *VAR185"] 
+
+  "4772" -> "4838"  [ label = "DDG: VAR114"] 
+
+  "4802" -> "4838"  [ label = "DDG: VAR189"] 
+
+  "4748" -> "4749"  [ label = "DDG: "] 
+
+  "4748" -> "4750"  [ label = "DDG: "] 
+
+  "4748" -> "4751"  [ label = "DDG: "] 
+
+  "4748" -> "4752"  [ label = "DDG: "] 
+
+  "4748" -> "4753"  [ label = "DDG: "] 
+
+  "4748" -> "4756"  [ label = "DDG: "] 
+
+  "4748" -> "4759"  [ label = "DDG: "] 
+
+  "4748" -> "4833"  [ label = "DDG: "] 
+
+  "4751" -> "4829"  [ label = "DDG: VAR84"] 
+
+  "4819" -> "4829"  [ label = "DDG: VAR84"] 
+
+  "4748" -> "4829"  [ label = "DDG: "] 
+
+  "4815" -> "4829"  [ label = "DDG: *VAR185"] 
+
+  "4819" -> "4829"  [ label = "DDG: *VAR185"] 
+
+  "4748" -> "4782"  [ label = "DDG: "] 
+
+  "4813" -> "4812"  [ label = "DDG: VAR184"] 
+
+  "4813" -> "4812"  [ label = "DDG: *VAR185 &gt; 16"] 
+
+  "4819" -> "4812"  [ label = "DDG: VAR84"] 
+
+  "4819" -> "4812"  [ label = "DDG: *VAR185"] 
+
+  "4748" -> "4772"  [ label = "DDG: "] 
+
+  "4751" -> "4778"  [ label = "DDG: VAR84"] 
+
+  "4748" -> "4778"  [ label = "DDG: "] 
+
+  "4791" -> "4788"  [ label = "DDG: VAR55-&gt;VAR112"] 
+
+  "4791" -> "4788"  [ label = "DDG: VAR84"] 
+
+  "4791" -> "4788"  [ label = "DDG: &amp;VAR46-&gt;VAR60"] 
+
+  "4791" -> "4788"  [ label = "DDG: *VAR185"] 
+
+  "4748" -> "4802"  [ label = "DDG: "] 
+
+  "4752" -> "4813"  [ label = "DDG: VAR184"] 
+
+  "4748" -> "4813"  [ label = "DDG: "] 
+
+  "4815" -> "4813"  [ label = "DDG: *VAR185"] 
+
+  "4815" -> "4813"  [ label = "DDG: 16"] 
+
+  "4751" -> "4819"  [ label = "DDG: VAR84"] 
+
+  "4748" -> "4819"  [ label = "DDG: "] 
+
+  "4815" -> "4819"  [ label = "DDG: *VAR185"] 
+
+  "4748" -> "4824"  [ label = "DDG: "] 
+
+  "4748" -> "4815"  [ label = "DDG: "] 
+
+  "4751" -> "4791"  [ label = "DDG: VAR84"] 
+
+  "4748" -> "4791"  [ label = "DDG: "] 
+
+  "4761" -> "4794"  [ label = "CDG: "] 
+
+  "4761" -> "4772"  [ label = "CDG: "] 
+
+  "4761" -> "4775"  [ label = "CDG: "] 
+
+  "4761" -> "4807"  [ label = "CDG: "] 
+
+  "4761" -> "4806"  [ label = "CDG: "] 
+
+  "4761" -> "4803"  [ label = "CDG: "] 
+
+  "4761" -> "4799"  [ label = "CDG: "] 
+
+  "4761" -> "4789"  [ label = "CDG: "] 
+
+  "4761" -> "4804"  [ label = "CDG: "] 
+
+  "4761" -> "4778"  [ label = "CDG: "] 
+
+  "4761" -> "4802"  [ label = "CDG: "] 
+
+  "4761" -> "4792"  [ label = "CDG: "] 
+
+  "4761" -> "4783"  [ label = "CDG: "] 
+
+  "4761" -> "4800"  [ label = "CDG: "] 
+
+  "4761" -> "4788"  [ label = "CDG: "] 
+
+  "4761" -> "4791"  [ label = "CDG: "] 
+
+  "4761" -> "4780"  [ label = "CDG: "] 
+
+  "4761" -> "4782"  [ label = "CDG: "] 
+
+  "4761" -> "4796"  [ label = "CDG: "] 
+
+  "4761" -> "4773"  [ label = "CDG: "] 
+
+  "4761" -> "4797"  [ label = "CDG: "] 
+
+  "4812" -> "4825"  [ label = "CDG: "] 
+
+  "4812" -> "4824"  [ label = "CDG: "] 
+
+  "4812" -> "4827"  [ label = "CDG: "] 
+
+  "4813" -> "4819"  [ label = "CDG: "] 
+
+  "4813" -> "4821"  [ label = "CDG: "] 
+
+}

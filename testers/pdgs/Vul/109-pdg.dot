@@ -1,0 +1,20 @@
+
+digraph "&lt;operator&gt;.assignmentMultiplication" {  
+
+"14699" [label = "(METHOD,&lt;operator&gt;.assignmentMultiplication)" ]
+
+"14703" [label = "(METHOD_RETURN,ANY)" ]
+
+"14700" [label = "(PARAM,p1)" ]
+
+"14701" [label = "(PARAM,p2)" ]
+
+  "14700" -> "14703"  [ label = "DDG: p1"] 
+
+  "14701" -> "14703"  [ label = "DDG: p2"] 
+
+  "14699" -> "14700"  [ label = "DDG: "] 
+
+  "14699" -> "14701"  [ label = "DDG: "] 
+
+}

@@ -1,0 +1,20 @@
+
+digraph "&lt;operators&gt;.assignmentShiftLeft" {  
+
+"14824" [label = "(METHOD,&lt;operators&gt;.assignmentShiftLeft)" ]
+
+"14828" [label = "(METHOD_RETURN,ANY)" ]
+
+"14825" [label = "(PARAM,p1)" ]
+
+"14826" [label = "(PARAM,p2)" ]
+
+  "14825" -> "14828"  [ label = "DDG: p1"] 
+
+  "14826" -> "14828"  [ label = "DDG: p2"] 
+
+  "14824" -> "14825"  [ label = "DDG: "] 
+
+  "14824" -> "14826"  [ label = "DDG: "] 
+
+}

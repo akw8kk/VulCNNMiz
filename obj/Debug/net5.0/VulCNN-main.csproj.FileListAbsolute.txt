@@ -1,0 +1,15 @@
+/Users/anniewatson/Downloads/VulCNN-main/bin/Debug/net5.0/VulCNN-main.deps.json
+/Users/anniewatson/Downloads/VulCNN-main/bin/Debug/net5.0/VulCNN-main.runtimeconfig.json
+/Users/anniewatson/Downloads/VulCNN-main/bin/Debug/net5.0/VulCNN-main.runtimeconfig.dev.json
+/Users/anniewatson/Downloads/VulCNN-main/bin/Debug/net5.0/VulCNN-main.dll
+/Users/anniewatson/Downloads/VulCNN-main/bin/Debug/net5.0/ref/VulCNN-main.dll
+/Users/anniewatson/Downloads/VulCNN-main/bin/Debug/net5.0/VulCNN-main.pdb
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/VulCNN-main.csproj.AssemblyReference.cache
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/VulCNN-main.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/VulCNN-main.AssemblyInfoInputs.cache
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/VulCNN-main.AssemblyInfo.cs
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/VulCNN-main.csproj.CoreCompileInputs.cache
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/VulCNN-main.dll
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/ref/VulCNN-main.dll
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/VulCNN-main.pdb
+/Users/anniewatson/Downloads/VulCNN-main/obj/Debug/net5.0/VulCNN-main.genruntimeconfig.cache

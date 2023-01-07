@@ -1,0 +1,25 @@
+void FUN1()
+{
+    int VAR1;
+    char * VAR2;
+    char VAR3[100];
+    VAR2 = VAR3;
+    for(VAR1 = 0; VAR1 < 1; VAR1++)
+    {
+        
+        memset(VAR2, '', 100-1); 
+        VAR2[100-1] = ''; 
+    }
+    {
+        char VAR4[50] = "";
+        size_t VAR1, VAR5;
+        VAR5 = strlen(VAR2);
+        
+        for (VAR1 = 0; VAR1 < VAR5; VAR1++)
+        {
+            VAR4[VAR1] = VAR2[VAR1];
+        }
+        VAR4[50-1] = ''; 
+        FUN2(VAR2);
+    }
+}

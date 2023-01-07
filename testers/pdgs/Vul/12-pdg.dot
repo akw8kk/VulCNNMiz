@@ -1,0 +1,112 @@
+
+digraph "FUN27" {  
+
+"1425" [label = "(METHOD,FUN27)<SUB>273</SUB>" ]
+
+"1458" [label = "(METHOD_RETURN,int)<SUB>273</SUB>" ]
+
+"1426" [label = "(PARAM,AVCodecContext *VAR112)<SUB>273</SUB>" ]
+
+"1427" [label = "(PARAM,int VAR113)<SUB>273</SUB>" ]
+
+"1428" [label = "(PARAM,int VAR93)<SUB>273</SUB>" ]
+
+"1456" [label = "(RETURN,return 0;,return 0;)<SUB>286</SUB>" ]
+
+"1431" [label = "(&lt;operator&gt;.lessEqualsThan,VAR113 &lt;= 0)<SUB>276</SUB>" ]
+
+"1444" [label = "(&lt;operator&gt;.greaterEqualsThan,VAR93 &gt;= VAR113)<SUB>280</SUB>" ]
+
+"1457" [label = "(LITERAL,0,return 0;)<SUB>286</SUB>" ]
+
+"1435" [label = "(FUN28,FUN28(VAR112, VAR114, &quot;&quot;, VAR113))<SUB>277</SUB>" ]
+
+"1440" [label = "(RETURN,return -1;,return -1;)<SUB>278</SUB>" ]
+
+"1448" [label = "(FUN28,FUN28(VAR112, VAR114,\012               &quot;&quot;,\012               VAR93))<SUB>281</SUB>" ]
+
+"1453" [label = "(RETURN,return -1;,return -1;)<SUB>284</SUB>" ]
+
+"1441" [label = "(&lt;operator&gt;.minus,-1)<SUB>278</SUB>" ]
+
+"1454" [label = "(&lt;operator&gt;.minus,-1)<SUB>284</SUB>" ]
+
+  "1453" -> "1458"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "1456" -> "1458"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "1440" -> "1458"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "1428" -> "1458"  [ label = "DDG: VAR93"] 
+
+  "1431" -> "1458"  [ label = "DDG: VAR113 &lt;= 0"] 
+
+  "1435" -> "1458"  [ label = "DDG: VAR112"] 
+
+  "1435" -> "1458"  [ label = "DDG: VAR114"] 
+
+  "1435" -> "1458"  [ label = "DDG: VAR113"] 
+
+  "1435" -> "1458"  [ label = "DDG: FUN28(VAR112, VAR114, &quot;&quot;, VAR113)"] 
+
+  "1441" -> "1458"  [ label = "DDG: -1"] 
+
+  "1425" -> "1426"  [ label = "DDG: "] 
+
+  "1425" -> "1427"  [ label = "DDG: "] 
+
+  "1425" -> "1428"  [ label = "DDG: "] 
+
+  "1457" -> "1456"  [ label = "DDG: 0"] 
+
+  "1425" -> "1456"  [ label = "DDG: "] 
+
+  "1425" -> "1457"  [ label = "DDG: "] 
+
+  "1427" -> "1431"  [ label = "DDG: VAR113"] 
+
+  "1425" -> "1431"  [ label = "DDG: "] 
+
+  "1441" -> "1440"  [ label = "DDG: -1"] 
+
+  "1428" -> "1444"  [ label = "DDG: VAR93"] 
+
+  "1425" -> "1444"  [ label = "DDG: "] 
+
+  "1431" -> "1444"  [ label = "DDG: VAR113"] 
+
+  "1454" -> "1453"  [ label = "DDG: -1"] 
+
+  "1426" -> "1435"  [ label = "DDG: VAR112"] 
+
+  "1425" -> "1435"  [ label = "DDG: "] 
+
+  "1431" -> "1435"  [ label = "DDG: VAR113"] 
+
+  "1426" -> "1448"  [ label = "DDG: VAR112"] 
+
+  "1425" -> "1448"  [ label = "DDG: "] 
+
+  "1444" -> "1448"  [ label = "DDG: VAR93"] 
+
+  "1425" -> "1441"  [ label = "DDG: "] 
+
+  "1425" -> "1454"  [ label = "DDG: "] 
+
+  "1431" -> "1441"  [ label = "CDG: "] 
+
+  "1431" -> "1435"  [ label = "CDG: "] 
+
+  "1431" -> "1444"  [ label = "CDG: "] 
+
+  "1431" -> "1440"  [ label = "CDG: "] 
+
+  "1444" -> "1454"  [ label = "CDG: "] 
+
+  "1444" -> "1456"  [ label = "CDG: "] 
+
+  "1444" -> "1448"  [ label = "CDG: "] 
+
+  "1444" -> "1453"  [ label = "CDG: "] 
+
+}

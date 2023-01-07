@@ -1,0 +1,30 @@
+void FUN1()
+{
+    wchar_t * VAR1;
+    wchar_t VAR2[50];
+    wchar_t VAR3[100];
+    wmemset(VAR2, VAR4'', 50-1); 
+    VAR2[50-1] = VAR4''; 
+    wmemset(VAR3, VAR4'', 100-1); 
+    VAR3[100-1] = VAR4''; 
+    
+    VAR1 = VAR2;
+    {
+        wchar_t * VAR5 = VAR1;
+        wchar_t * VAR1 = VAR5;
+        {
+            size_t VAR6, VAR7;
+            wchar_t VAR8[100];
+            wmemset(VAR8, VAR4'', 100-1);
+            VAR8[100-1] = VAR4''; 
+            VAR7 = wcslen(VAR8);
+            
+            for (VAR6 = 0; VAR6 < VAR7; VAR6++)
+            {
+                VAR8[VAR6] = VAR1[VAR6];
+            }
+            VAR8[100-1] = VAR4'';
+            FUN2(VAR8);
+        }
+    }
+}

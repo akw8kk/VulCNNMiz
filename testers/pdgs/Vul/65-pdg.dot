@@ -1,0 +1,94 @@
+
+digraph "FUN14" {  
+
+"13573" [label = "(METHOD,FUN14)<SUB>303</SUB>" ]
+
+"13606" [label = "(METHOD_RETURN,int)<SUB>303</SUB>" ]
+
+"13574" [label = "(PARAM,DWTContext *VAR8)<SUB>303</SUB>" ]
+
+"13575" [label = "(PARAM,void *VAR9)<SUB>303</SUB>" ]
+
+"13604" [label = "(RETURN,return 0;,return 0;)<SUB>318</SUB>" ]
+
+"13605" [label = "(LITERAL,0,return 0;)<SUB>318</SUB>" ]
+
+"13583" [label = "(IDENTIFIER,VAR43,&lt;empty&gt;)<SUB>306</SUB>" ]
+
+"13584" [label = "(FUN7,FUN7(VAR8, VAR9))<SUB>307</SUB>" ]
+
+"13589" [label = "(IDENTIFIER,VAR45,&lt;empty&gt;)<SUB>309</SUB>" ]
+
+"13590" [label = "(FUN9,FUN9(VAR8, VAR9))<SUB>310</SUB>" ]
+
+"13595" [label = "(IDENTIFIER,VAR46,&lt;empty&gt;)<SUB>312</SUB>" ]
+
+"13596" [label = "(FUN5,FUN5(VAR8, VAR9))<SUB>313</SUB>" ]
+
+"13601" [label = "(RETURN,return -1;,return -1;)<SUB>316</SUB>" ]
+
+"13602" [label = "(&lt;operator&gt;.minus,-1)<SUB>316</SUB>" ]
+
+"13578" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR8-&gt;VAR40)<SUB>305</SUB>" ]
+
+  "13601" -> "13606"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "13604" -> "13606"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "13574" -> "13606"  [ label = "DDG: VAR8"] 
+
+  "13575" -> "13606"  [ label = "DDG: VAR9"] 
+
+  "13602" -> "13606"  [ label = "DDG: -1"] 
+
+  "13573" -> "13574"  [ label = "DDG: "] 
+
+  "13573" -> "13575"  [ label = "DDG: "] 
+
+  "13605" -> "13604"  [ label = "DDG: 0"] 
+
+  "13573" -> "13604"  [ label = "DDG: "] 
+
+  "13573" -> "13605"  [ label = "DDG: "] 
+
+  "13573" -> "13583"  [ label = "DDG: "] 
+
+  "13573" -> "13589"  [ label = "DDG: "] 
+
+  "13573" -> "13595"  [ label = "DDG: "] 
+
+  "13602" -> "13601"  [ label = "DDG: -1"] 
+
+  "13574" -> "13584"  [ label = "DDG: VAR8"] 
+
+  "13573" -> "13584"  [ label = "DDG: "] 
+
+  "13575" -> "13584"  [ label = "DDG: VAR9"] 
+
+  "13574" -> "13590"  [ label = "DDG: VAR8"] 
+
+  "13573" -> "13590"  [ label = "DDG: "] 
+
+  "13575" -> "13590"  [ label = "DDG: VAR9"] 
+
+  "13574" -> "13596"  [ label = "DDG: VAR8"] 
+
+  "13573" -> "13596"  [ label = "DDG: "] 
+
+  "13575" -> "13596"  [ label = "DDG: VAR9"] 
+
+  "13573" -> "13602"  [ label = "DDG: "] 
+
+  "13578" -> "13601"  [ label = "CDG: "] 
+
+  "13578" -> "13584"  [ label = "CDG: "] 
+
+  "13578" -> "13596"  [ label = "CDG: "] 
+
+  "13578" -> "13602"  [ label = "CDG: "] 
+
+  "13578" -> "13604"  [ label = "CDG: "] 
+
+  "13578" -> "13590"  [ label = "CDG: "] 
+
+}

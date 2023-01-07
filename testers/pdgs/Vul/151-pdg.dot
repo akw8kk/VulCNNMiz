@@ -1,0 +1,20 @@
+
+digraph "VAR46-&gt;VAR61.FUN77" {  
+
+"14930" [label = "(METHOD,VAR46-&gt;VAR61.FUN77)" ]
+
+"14934" [label = "(METHOD_RETURN,ANY)" ]
+
+"14931" [label = "(PARAM,p1)" ]
+
+"14932" [label = "(PARAM,p2)" ]
+
+  "14931" -> "14934"  [ label = "DDG: p1"] 
+
+  "14932" -> "14934"  [ label = "DDG: p2"] 
+
+  "14930" -> "14931"  [ label = "DDG: "] 
+
+  "14930" -> "14932"  [ label = "DDG: "] 
+
+}

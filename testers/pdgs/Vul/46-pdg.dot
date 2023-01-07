@@ -1,0 +1,36 @@
+
+digraph "FUN10" {  
+
+"10368" [label = "(METHOD,FUN10)<SUB>109</SUB>" ]
+
+"10377" [label = "(METHOD_RETURN,int)<SUB>109</SUB>" ]
+
+"10369" [label = "(PARAM,int VAR32)<SUB>109</SUB>" ]
+
+"10371" [label = "(RETURN,return VAR32 ? FUN11(VAR32) : 0;,return VAR32 ? FUN11(VAR32) : 0;)<SUB>111</SUB>" ]
+
+"10372" [label = "(&lt;operator&gt;.conditional,VAR32 ? FUN11(VAR32) : 0)<SUB>111</SUB>" ]
+
+"10374" [label = "(FUN11,FUN11(VAR32))<SUB>111</SUB>" ]
+
+  "10371" -> "10377"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "10372" -> "10377"  [ label = "DDG: VAR32"] 
+
+  "10372" -> "10377"  [ label = "DDG: FUN11(VAR32)"] 
+
+  "10372" -> "10377"  [ label = "DDG: VAR32 ? FUN11(VAR32) : 0"] 
+
+  "10368" -> "10369"  [ label = "DDG: "] 
+
+  "10372" -> "10371"  [ label = "DDG: VAR32 ? FUN11(VAR32) : 0"] 
+
+  "10374" -> "10372"  [ label = "DDG: VAR32"] 
+
+  "10368" -> "10372"  [ label = "DDG: "] 
+
+  "10369" -> "10374"  [ label = "DDG: VAR32"] 
+
+  "10368" -> "10374"  [ label = "DDG: "] 
+
+}

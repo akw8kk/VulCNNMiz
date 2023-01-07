@@ -1,0 +1,20 @@
+
+digraph "&lt;operator&gt;.subtraction" {  
+
+"2096" [label = "(METHOD,&lt;operator&gt;.subtraction)" ]
+
+"2100" [label = "(METHOD_RETURN,ANY)" ]
+
+"2097" [label = "(PARAM,p1)" ]
+
+"2098" [label = "(PARAM,p2)" ]
+
+  "2097" -> "2100"  [ label = "DDG: p1"] 
+
+  "2098" -> "2100"  [ label = "DDG: p2"] 
+
+  "2096" -> "2097"  [ label = "DDG: "] 
+
+  "2096" -> "2098"  [ label = "DDG: "] 
+
+}

@@ -1,0 +1,20 @@
+
+digraph "&lt;operator&gt;.shiftLeft" {  
+
+"14712" [label = "(METHOD,&lt;operator&gt;.shiftLeft)" ]
+
+"14716" [label = "(METHOD_RETURN,ANY)" ]
+
+"14713" [label = "(PARAM,p1)" ]
+
+"14714" [label = "(PARAM,p2)" ]
+
+  "14713" -> "14716"  [ label = "DDG: p1"] 
+
+  "14714" -> "14716"  [ label = "DDG: p2"] 
+
+  "14712" -> "14713"  [ label = "DDG: "] 
+
+  "14712" -> "14714"  [ label = "DDG: "] 
+
+}

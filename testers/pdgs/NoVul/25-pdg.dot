@@ -1,0 +1,14 @@
+
+digraph "&lt;operator&gt;.indirection" {  
+
+"2043" [label = "(METHOD,&lt;operator&gt;.indirection)" ]
+
+"2046" [label = "(METHOD_RETURN,ANY)" ]
+
+"2044" [label = "(PARAM,p1)" ]
+
+  "2044" -> "2046"  [ label = "DDG: p1"] 
+
+  "2043" -> "2044"  [ label = "DDG: "] 
+
+}

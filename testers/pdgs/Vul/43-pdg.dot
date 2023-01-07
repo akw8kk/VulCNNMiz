@@ -1,0 +1,26 @@
+
+digraph "&lt;clinit&gt;" {  
+
+"10102" [label = "(METHOD,&lt;clinit&gt;)" ]
+
+"10111" [label = "(METHOD_RETURN,ANY)" ]
+
+"10104" [label = "(&lt;operator&gt;.arrayInitializer,*VAR10[2])<SUB>20</SUB>" ]
+
+"10106" [label = "(&lt;operator&gt;.arrayInitializer,*VAR11[2])<SUB>21</SUB>" ]
+
+"10108" [label = "(&lt;operator&gt;.arrayInitializer,*VAR12[2])<SUB>22</SUB>" ]
+
+  "10104" -> "10111"  [ label = "DDG: *VAR10[2]"] 
+
+  "10106" -> "10111"  [ label = "DDG: *VAR11[2]"] 
+
+  "10108" -> "10111"  [ label = "DDG: *VAR12[2]"] 
+
+  "10102" -> "10104"  [ label = "DDG: "] 
+
+  "10102" -> "10106"  [ label = "DDG: "] 
+
+  "10102" -> "10108"  [ label = "DDG: "] 
+
+}

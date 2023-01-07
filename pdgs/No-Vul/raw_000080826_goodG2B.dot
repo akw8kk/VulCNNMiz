@@ -1,0 +1,15 @@
+digraph FUN1 {  
+"1000100" [label = "(METHOD,FUN1)" ]
+"1000110" [label = "(METHOD_RETURN,static void)" ]
+"1000103" [label = "(LITERAL,\"\",)" ]
+"1000104" [label = "(<operator>.assignment,VAR1 = VAR2)" ]
+"1000107" [label = "(fwprintf,fwprintf(VAR4, VAR1))" ]
+  "1000107" -> "1000110"  [ label = "DDG: VAR4"] 
+  "1000107" -> "1000110"  [ label = "DDG: fwprintf(VAR4, VAR1)"] 
+  "1000104" -> "1000110"  [ label = "DDG: VAR2"] 
+  "1000107" -> "1000110"  [ label = "DDG: VAR1"] 
+  "1000100" -> "1000103"  [ label = "DDG: "] 
+  "1000100" -> "1000104"  [ label = "DDG: "] 
+  "1000100" -> "1000107"  [ label = "DDG: "] 
+  "1000104" -> "1000107"  [ label = "DDG: VAR1"] 
+}

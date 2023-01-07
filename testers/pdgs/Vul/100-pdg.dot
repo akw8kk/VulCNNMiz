@@ -1,0 +1,20 @@
+
+digraph "FUN18" {  
+
+"14654" [label = "(METHOD,FUN18)" ]
+
+"14658" [label = "(METHOD_RETURN,ANY)" ]
+
+"14655" [label = "(PARAM,p1)" ]
+
+"14656" [label = "(PARAM,p2)" ]
+
+  "14655" -> "14658"  [ label = "DDG: p1"] 
+
+  "14656" -> "14658"  [ label = "DDG: p2"] 
+
+  "14654" -> "14655"  [ label = "DDG: "] 
+
+  "14654" -> "14656"  [ label = "DDG: "] 
+
+}

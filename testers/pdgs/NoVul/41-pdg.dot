@@ -1,0 +1,14 @@
+
+digraph "&lt;operator&gt;.addressOf" {  
+
+"2120" [label = "(METHOD,&lt;operator&gt;.addressOf)" ]
+
+"2123" [label = "(METHOD_RETURN,ANY)" ]
+
+"2121" [label = "(PARAM,p1)" ]
+
+  "2121" -> "2123"  [ label = "DDG: p1"] 
+
+  "2120" -> "2121"  [ label = "DDG: "] 
+
+}

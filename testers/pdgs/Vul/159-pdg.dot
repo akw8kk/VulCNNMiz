@@ -1,0 +1,20 @@
+
+digraph "&lt;operators&gt;.assignmentXor" {  
+
+"14985" [label = "(METHOD,&lt;operators&gt;.assignmentXor)" ]
+
+"14989" [label = "(METHOD_RETURN,ANY)" ]
+
+"14986" [label = "(PARAM,p1)" ]
+
+"14987" [label = "(PARAM,p2)" ]
+
+  "14986" -> "14989"  [ label = "DDG: p1"] 
+
+  "14987" -> "14989"  [ label = "DDG: p2"] 
+
+  "14985" -> "14986"  [ label = "DDG: "] 
+
+  "14985" -> "14987"  [ label = "DDG: "] 
+
+}

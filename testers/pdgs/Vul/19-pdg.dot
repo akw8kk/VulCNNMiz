@@ -1,0 +1,50 @@
+
+digraph "FUN37" {  
+
+"3990" [label = "(METHOD,FUN37)<SUB>753</SUB>" ]
+
+"4011" [label = "(METHOD_RETURN,void)<SUB>753</SUB>" ]
+
+"3991" [label = "(PARAM,SpectralBandReplication *VAR46)<SUB>753</SUB>" ]
+
+"3992" [label = "(PARAM,GetBitContext *VAR84)<SUB>753</SUB>" ]
+
+"3993" [label = "(PARAM,SBRData *VAR153)<SUB>754</SUB>" ]
+
+"3995" [label = "(FUN34,FUN34(VAR84, VAR153-&gt;VAR170,   VAR153-&gt;VAR159))<SUB>756</SUB>" ]
+
+"4003" [label = "(FUN34,FUN34(VAR84, VAR153-&gt;VAR171, VAR153-&gt;VAR165))<SUB>757</SUB>" ]
+
+  "3991" -> "4011"  [ label = "DDG: VAR46"] 
+
+  "3993" -> "4011"  [ label = "DDG: VAR153"] 
+
+  "3995" -> "4011"  [ label = "DDG: VAR153-&gt;VAR170"] 
+
+  "3995" -> "4011"  [ label = "DDG: VAR153-&gt;VAR159"] 
+
+  "3995" -> "4011"  [ label = "DDG: FUN34(VAR84, VAR153-&gt;VAR170,   VAR153-&gt;VAR159)"] 
+
+  "4003" -> "4011"  [ label = "DDG: VAR84"] 
+
+  "4003" -> "4011"  [ label = "DDG: VAR153-&gt;VAR171"] 
+
+  "4003" -> "4011"  [ label = "DDG: VAR153-&gt;VAR165"] 
+
+  "4003" -> "4011"  [ label = "DDG: FUN34(VAR84, VAR153-&gt;VAR171, VAR153-&gt;VAR165)"] 
+
+  "3990" -> "3991"  [ label = "DDG: "] 
+
+  "3990" -> "3992"  [ label = "DDG: "] 
+
+  "3990" -> "3993"  [ label = "DDG: "] 
+
+  "3992" -> "3995"  [ label = "DDG: VAR84"] 
+
+  "3990" -> "3995"  [ label = "DDG: "] 
+
+  "3995" -> "4003"  [ label = "DDG: VAR84"] 
+
+  "3990" -> "4003"  [ label = "DDG: "] 
+
+}

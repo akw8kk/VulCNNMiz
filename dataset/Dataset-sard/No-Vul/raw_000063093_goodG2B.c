@@ -1,0 +1,26 @@
+static void FUN1()
+{
+    char * VAR1;
+    CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_34_unionType VAR2;
+    char * VAR3 = (char *)FUN2((10)*sizeof(char));
+    char * VAR4 = (char *)FUN2((10+1)*sizeof(char));
+    
+    VAR1 = VAR4;
+    VAR1[0] = ''; 
+    VAR2.VAR5 = VAR1;
+    {
+        char * VAR1 = VAR2.VAR6;
+        {
+            char VAR7[10+1] = VAR8;
+            size_t VAR9, VAR10;
+            VAR10 = strlen(VAR7);
+            
+            
+            for (VAR9 = 0; VAR9 < VAR10 + 1; VAR9++)
+            {
+                VAR1[VAR9] = VAR7[VAR9];
+            }
+            FUN3(VAR1);
+        }
+    }
+}

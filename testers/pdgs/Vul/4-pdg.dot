@@ -1,0 +1,148 @@
+
+digraph "FUN7" {  
+
+"683" [label = "(METHOD,FUN7)<SUB>112</SUB>" ]
+
+"759" [label = "(METHOD_RETURN,void)<SUB>112</SUB>" ]
+
+"684" [label = "(PARAM,AACContext *VAR55)<SUB>112</SUB>" ]
+
+"685" [label = "(PARAM,SpectralBandReplication *VAR46)<SUB>112</SUB>" ]
+
+"687" [label = "(&lt;operator&gt;.assignment,VAR46-&gt;VAR48[0] = VAR46-&gt;VAR48[1])<SUB>114</SUB>" ]
+
+"698" [label = "(FUN6,FUN6(VAR46))<SUB>115</SUB>" ]
+
+"700" [label = "(&lt;operator&gt;.assignment,VAR46-&gt;VAR50[0].VAR56 = VAR57 - (1280 - 128))<SUB>116</SUB>" ]
+
+"713" [label = "(&lt;operator&gt;.assignment,VAR46-&gt;VAR50[1].VAR56 = VAR57 - (1280 - 128))<SUB>117</SUB>" ]
+
+"726" [label = "(FUN8,FUN8(&amp;VAR46-&gt;VAR58,     7, 1, 1.0 / (64 * 32768.0)))<SUB>119</SUB>" ]
+
+"738" [label = "(FUN8,FUN8(&amp;VAR46-&gt;VAR59, 7, 1, -2.0 * 32768.0))<SUB>120</SUB>" ]
+
+"749" [label = "(FUN9,FUN9(&amp;VAR46-&gt;VAR60))<SUB>121</SUB>" ]
+
+"754" [label = "(FUN10,FUN10(&amp;VAR46-&gt;VAR61))<SUB>122</SUB>" ]
+
+"708" [label = "(&lt;operator&gt;.subtraction,VAR57 - (1280 - 128))<SUB>116</SUB>" ]
+
+"721" [label = "(&lt;operator&gt;.subtraction,VAR57 - (1280 - 128))<SUB>117</SUB>" ]
+
+"733" [label = "(&lt;operator&gt;.division,1.0 / (64 * 32768.0))<SUB>119</SUB>" ]
+
+"745" [label = "(&lt;operator&gt;.multiplication,-2.0 * 32768.0)<SUB>120</SUB>" ]
+
+"710" [label = "(&lt;operator&gt;.subtraction,1280 - 128)<SUB>116</SUB>" ]
+
+"723" [label = "(&lt;operator&gt;.subtraction,1280 - 128)<SUB>117</SUB>" ]
+
+"735" [label = "(&lt;operator&gt;.multiplication,64 * 32768.0)<SUB>119</SUB>" ]
+
+"746" [label = "(&lt;operator&gt;.minus,-2.0)<SUB>120</SUB>" ]
+
+  "684" -> "759"  [ label = "DDG: VAR55"] 
+
+  "687" -> "759"  [ label = "DDG: VAR46-&gt;VAR48[0]"] 
+
+  "687" -> "759"  [ label = "DDG: VAR46-&gt;VAR48[1]"] 
+
+  "698" -> "759"  [ label = "DDG: VAR46"] 
+
+  "698" -> "759"  [ label = "DDG: FUN6(VAR46)"] 
+
+  "700" -> "759"  [ label = "DDG: VAR46-&gt;VAR50[0].VAR56"] 
+
+  "713" -> "759"  [ label = "DDG: VAR46-&gt;VAR50[1].VAR56"] 
+
+  "721" -> "759"  [ label = "DDG: VAR57"] 
+
+  "721" -> "759"  [ label = "DDG: 1280 - 128"] 
+
+  "713" -> "759"  [ label = "DDG: VAR57 - (1280 - 128)"] 
+
+  "726" -> "759"  [ label = "DDG: &amp;VAR46-&gt;VAR58"] 
+
+  "733" -> "759"  [ label = "DDG: 64 * 32768.0"] 
+
+  "726" -> "759"  [ label = "DDG: 1.0 / (64 * 32768.0)"] 
+
+  "726" -> "759"  [ label = "DDG: FUN8(&amp;VAR46-&gt;VAR58,     7, 1, 1.0 / (64 * 32768.0))"] 
+
+  "738" -> "759"  [ label = "DDG: &amp;VAR46-&gt;VAR59"] 
+
+  "745" -> "759"  [ label = "DDG: -2.0"] 
+
+  "738" -> "759"  [ label = "DDG: -2.0 * 32768.0"] 
+
+  "738" -> "759"  [ label = "DDG: FUN8(&amp;VAR46-&gt;VAR59, 7, 1, -2.0 * 32768.0)"] 
+
+  "749" -> "759"  [ label = "DDG: &amp;VAR46-&gt;VAR60"] 
+
+  "749" -> "759"  [ label = "DDG: FUN9(&amp;VAR46-&gt;VAR60)"] 
+
+  "754" -> "759"  [ label = "DDG: &amp;VAR46-&gt;VAR61"] 
+
+  "754" -> "759"  [ label = "DDG: FUN10(&amp;VAR46-&gt;VAR61)"] 
+
+  "683" -> "684"  [ label = "DDG: "] 
+
+  "683" -> "685"  [ label = "DDG: "] 
+
+  "708" -> "700"  [ label = "DDG: VAR57"] 
+
+  "708" -> "700"  [ label = "DDG: 1280 - 128"] 
+
+  "721" -> "713"  [ label = "DDG: VAR57"] 
+
+  "721" -> "713"  [ label = "DDG: 1280 - 128"] 
+
+  "685" -> "698"  [ label = "DDG: VAR46"] 
+
+  "683" -> "698"  [ label = "DDG: "] 
+
+  "683" -> "726"  [ label = "DDG: "] 
+
+  "733" -> "726"  [ label = "DDG: 1.0"] 
+
+  "733" -> "726"  [ label = "DDG: 64 * 32768.0"] 
+
+  "683" -> "738"  [ label = "DDG: "] 
+
+  "745" -> "738"  [ label = "DDG: -2.0"] 
+
+  "745" -> "738"  [ label = "DDG: 32768.0"] 
+
+  "683" -> "708"  [ label = "DDG: "] 
+
+  "710" -> "708"  [ label = "DDG: 1280"] 
+
+  "710" -> "708"  [ label = "DDG: 128"] 
+
+  "708" -> "721"  [ label = "DDG: VAR57"] 
+
+  "683" -> "721"  [ label = "DDG: "] 
+
+  "723" -> "721"  [ label = "DDG: 1280"] 
+
+  "723" -> "721"  [ label = "DDG: 128"] 
+
+  "683" -> "733"  [ label = "DDG: "] 
+
+  "735" -> "733"  [ label = "DDG: 64"] 
+
+  "735" -> "733"  [ label = "DDG: 32768.0"] 
+
+  "746" -> "745"  [ label = "DDG: 2.0"] 
+
+  "683" -> "745"  [ label = "DDG: "] 
+
+  "683" -> "710"  [ label = "DDG: "] 
+
+  "683" -> "723"  [ label = "DDG: "] 
+
+  "683" -> "735"  [ label = "DDG: "] 
+
+  "683" -> "746"  [ label = "DDG: "] 
+
+}

@@ -1,0 +1,458 @@
+
+digraph "FUN50" {  
+
+"5268" [label = "(METHOD,FUN50)<SUB>963</SUB>" ]
+
+"5401" [label = "(METHOD_RETURN,unsigned int)<SUB>963</SUB>" ]
+
+"5269" [label = "(PARAM,AACContext *VAR55)<SUB>963</SUB>" ]
+
+"5270" [label = "(PARAM,SpectralBandReplication *VAR46)<SUB>963</SUB>" ]
+
+"5271" [label = "(PARAM,GetBitContext *VAR84)<SUB>964</SUB>" ]
+
+"5272" [label = "(PARAM,int VAR192)<SUB>964</SUB>" ]
+
+"5275" [label = "(&lt;operator&gt;.assignment,VAR85 = FUN18(VAR84))<SUB>966</SUB>" ]
+
+"5396" [label = "(RETURN,return FUN18(VAR84) - VAR85;,return FUN18(VAR84) - VAR85;)<SUB>1001</SUB>" ]
+
+"5280" [label = "(&lt;operator&gt;.logicalOr,VAR192 == VAR193 || VAR192 == VAR194)<SUB>968</SUB>" ]
+
+"5338" [label = "(FUN19,FUN19(VAR84))<SUB>984</SUB>" ]
+
+"5397" [label = "(&lt;operator&gt;.subtraction,FUN18(VAR84) - VAR85)<SUB>1001</SUB>" ]
+
+"5277" [label = "(FUN18,FUN18(VAR84))<SUB>966</SUB>" ]
+
+"5342" [label = "(&lt;operator&gt;.assignment,VAR185 = FUN20(VAR84, 4))<SUB>985</SUB>" ]
+
+"5357" [label = "(&lt;operators&gt;.assignmentShiftLeft,VAR185 &lt;&lt;= 3)<SUB>989</SUB>" ]
+
+"5281" [label = "(&lt;operator&gt;.equals,VAR192 == VAR193)<SUB>968</SUB>" ]
+
+"5284" [label = "(&lt;operator&gt;.equals,VAR192 == VAR194)<SUB>968</SUB>" ]
+
+"5289" [label = "(FUN48,FUN48(VAR55, VAR46, VAR84))<SUB>969</SUB>" ]
+
+"5348" [label = "(&lt;operator&gt;.equals,VAR185 == 15)<SUB>986</SUB>" ]
+
+"5361" [label = "(&lt;operator&gt;.greaterThan,VAR185 &gt; 7)<SUB>990</SUB>" ]
+
+"5378" [label = "(&lt;operator&gt;.lessThan,VAR185 &lt; 0)<SUB>994</SUB>" ]
+
+"5389" [label = "(&lt;operator&gt;.greaterThan,VAR185 &gt; 0)<SUB>997</SUB>" ]
+
+"5398" [label = "(FUN18,FUN18(VAR84))<SUB>1001</SUB>" ]
+
+"5294" [label = "(FUN6,FUN6(VAR46))<SUB>970</SUB>" ]
+
+"5296" [label = "(RETURN,return FUN18(VAR84) - VAR85;,return FUN18(VAR84) - VAR85;)<SUB>971</SUB>" ]
+
+"5304" [label = "(&lt;operator&gt;.equals,VAR192 == VAR195)<SUB>973</SUB>" ]
+
+"5344" [label = "(FUN20,FUN20(VAR84, 4))<SUB>985</SUB>" ]
+
+"5352" [label = "(&lt;operator&gt;.assignmentPlus,VAR185 += FUN20(VAR84, 8))<SUB>987</SUB>" ]
+
+"5365" [label = "(&lt;operator&gt;.assignmentMinus,VAR185 -= 2)<SUB>991</SUB>" ]
+
+"5368" [label = "(FUN43,FUN43(VAR55, VAR46, VAR84, FUN20(VAR84, 2), &amp;VAR185))<SUB>992</SUB>" ]
+
+"5382" [label = "(FUN28,FUN28(VAR55-&gt;VAR112, VAR114, &quot;&quot;))<SUB>995</SUB>" ]
+
+"5393" [label = "(FUN21,FUN21(VAR84, VAR185))<SUB>998</SUB>" ]
+
+"5297" [label = "(&lt;operator&gt;.subtraction,FUN18(VAR84) - VAR85)<SUB>971</SUB>" ]
+
+"5309" [label = "(FUN49,FUN49(VAR55, VAR46, VAR84))<SUB>974</SUB>" ]
+
+"5323" [label = "(FUN28,FUN28(VAR55-&gt;VAR112, VAR114,\012            &quot;&quot;, VAR192))<SUB>979</SUB>" ]
+
+"5330" [label = "(FUN6,FUN6(VAR46))<SUB>981</SUB>" ]
+
+"5332" [label = "(RETURN,return FUN18(VAR84) - VAR85;,return FUN18(VAR84) - VAR85;)<SUB>982</SUB>" ]
+
+"5354" [label = "(FUN20,FUN20(VAR84, 8))<SUB>987</SUB>" ]
+
+"5372" [label = "(FUN20,FUN20(VAR84, 2))<SUB>992</SUB>" ]
+
+"5298" [label = "(FUN18,FUN18(VAR84))<SUB>971</SUB>" ]
+
+"5314" [label = "(FUN6,FUN6(VAR46))<SUB>975</SUB>" ]
+
+"5316" [label = "(RETURN,return FUN18(VAR84) - VAR85;,return FUN18(VAR84) - VAR85;)<SUB>976</SUB>" ]
+
+"5333" [label = "(&lt;operator&gt;.subtraction,FUN18(VAR84) - VAR85)<SUB>982</SUB>" ]
+
+"5317" [label = "(&lt;operator&gt;.subtraction,FUN18(VAR84) - VAR85)<SUB>976</SUB>" ]
+
+"5334" [label = "(FUN18,FUN18(VAR84))<SUB>982</SUB>" ]
+
+"5318" [label = "(FUN18,FUN18(VAR84))<SUB>976</SUB>" ]
+
+"5375" [label = "(&lt;operator&gt;.addressOf,&amp;VAR185)<SUB>992</SUB>" ]
+
+"5383" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR55-&gt;VAR112)<SUB>995</SUB>" ]
+
+"5385" [label = "(FIELD_IDENTIFIER,VAR112,VAR112)<SUB>995</SUB>" ]
+
+"5324" [label = "(&lt;operator&gt;.indirectFieldAccess,VAR55-&gt;VAR112)<SUB>979</SUB>" ]
+
+"5326" [label = "(FIELD_IDENTIFIER,VAR112,VAR112)<SUB>979</SUB>" ]
+
+  "5296" -> "5401"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "5316" -> "5401"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "5332" -> "5401"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "5396" -> "5401"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "5281" -> "5401"  [ label = "DDG: VAR192"] 
+
+  "5280" -> "5401"  [ label = "DDG: VAR192 == VAR193"] 
+
+  "5284" -> "5401"  [ label = "DDG: VAR192"] 
+
+  "5280" -> "5401"  [ label = "DDG: VAR192 == VAR194"] 
+
+  "5280" -> "5401"  [ label = "DDG: VAR192 == VAR193 || VAR192 == VAR194"] 
+
+  "5289" -> "5401"  [ label = "DDG: VAR55"] 
+
+  "5289" -> "5401"  [ label = "DDG: FUN48(VAR55, VAR46, VAR84)"] 
+
+  "5294" -> "5401"  [ label = "DDG: VAR46"] 
+
+  "5294" -> "5401"  [ label = "DDG: FUN6(VAR46)"] 
+
+  "5298" -> "5401"  [ label = "DDG: VAR84"] 
+
+  "5297" -> "5401"  [ label = "DDG: FUN18(VAR84)"] 
+
+  "5297" -> "5401"  [ label = "DDG: VAR85"] 
+
+  "5297" -> "5401"  [ label = "DDG: FUN18(VAR84) - VAR85"] 
+
+  "5284" -> "5401"  [ label = "DDG: VAR194"] 
+
+  "5304" -> "5401"  [ label = "DDG: VAR195"] 
+
+  "5281" -> "5401"  [ label = "DDG: VAR193"] 
+
+  "5268" -> "5269"  [ label = "DDG: "] 
+
+  "5268" -> "5270"  [ label = "DDG: "] 
+
+  "5268" -> "5271"  [ label = "DDG: "] 
+
+  "5268" -> "5272"  [ label = "DDG: "] 
+
+  "5277" -> "5275"  [ label = "DDG: VAR84"] 
+
+  "5397" -> "5396"  [ label = "DDG: FUN18(VAR84) - VAR85"] 
+
+  "5271" -> "5277"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5277"  [ label = "DDG: "] 
+
+  "5281" -> "5280"  [ label = "DDG: VAR192"] 
+
+  "5281" -> "5280"  [ label = "DDG: VAR193"] 
+
+  "5284" -> "5280"  [ label = "DDG: VAR192"] 
+
+  "5284" -> "5280"  [ label = "DDG: VAR194"] 
+
+  "5309" -> "5338"  [ label = "DDG: VAR84"] 
+
+  "5289" -> "5338"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5338"  [ label = "DDG: "] 
+
+  "5344" -> "5342"  [ label = "DDG: VAR84"] 
+
+  "5344" -> "5342"  [ label = "DDG: 4"] 
+
+  "5268" -> "5357"  [ label = "DDG: "] 
+
+  "5398" -> "5397"  [ label = "DDG: VAR84"] 
+
+  "5275" -> "5397"  [ label = "DDG: VAR85"] 
+
+  "5268" -> "5397"  [ label = "DDG: "] 
+
+  "5272" -> "5281"  [ label = "DDG: VAR192"] 
+
+  "5268" -> "5281"  [ label = "DDG: "] 
+
+  "5281" -> "5284"  [ label = "DDG: VAR192"] 
+
+  "5268" -> "5284"  [ label = "DDG: "] 
+
+  "5348" -> "5357"  [ label = "DDG: VAR185"] 
+
+  "5352" -> "5357"  [ label = "DDG: VAR185"] 
+
+  "5338" -> "5398"  [ label = "DDG: VAR84"] 
+
+  "5344" -> "5398"  [ label = "DDG: VAR84"] 
+
+  "5354" -> "5398"  [ label = "DDG: VAR84"] 
+
+  "5393" -> "5398"  [ label = "DDG: VAR84"] 
+
+  "5368" -> "5398"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5398"  [ label = "DDG: "] 
+
+  "5269" -> "5289"  [ label = "DDG: VAR55"] 
+
+  "5268" -> "5289"  [ label = "DDG: "] 
+
+  "5270" -> "5289"  [ label = "DDG: VAR46"] 
+
+  "5277" -> "5289"  [ label = "DDG: VAR84"] 
+
+  "5297" -> "5296"  [ label = "DDG: FUN18(VAR84) - VAR85"] 
+
+  "5338" -> "5344"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5344"  [ label = "DDG: "] 
+
+  "5342" -> "5348"  [ label = "DDG: VAR185"] 
+
+  "5268" -> "5348"  [ label = "DDG: "] 
+
+  "5354" -> "5352"  [ label = "DDG: VAR84"] 
+
+  "5354" -> "5352"  [ label = "DDG: 8"] 
+
+  "5357" -> "5361"  [ label = "DDG: VAR185"] 
+
+  "5365" -> "5361"  [ label = "DDG: VAR185"] 
+
+  "5368" -> "5361"  [ label = "DDG: &amp;VAR185"] 
+
+  "5268" -> "5361"  [ label = "DDG: "] 
+
+  "5268" -> "5365"  [ label = "DDG: "] 
+
+  "5361" -> "5378"  [ label = "DDG: VAR185"] 
+
+  "5368" -> "5378"  [ label = "DDG: &amp;VAR185"] 
+
+  "5268" -> "5378"  [ label = "DDG: "] 
+
+  "5378" -> "5389"  [ label = "DDG: VAR185"] 
+
+  "5368" -> "5389"  [ label = "DDG: &amp;VAR185"] 
+
+  "5268" -> "5389"  [ label = "DDG: "] 
+
+  "5289" -> "5294"  [ label = "DDG: VAR46"] 
+
+  "5268" -> "5294"  [ label = "DDG: "] 
+
+  "5281" -> "5304"  [ label = "DDG: VAR192"] 
+
+  "5284" -> "5304"  [ label = "DDG: VAR192"] 
+
+  "5268" -> "5304"  [ label = "DDG: "] 
+
+  "5348" -> "5352"  [ label = "DDG: VAR185"] 
+
+  "5268" -> "5352"  [ label = "DDG: "] 
+
+  "5361" -> "5365"  [ label = "DDG: VAR185"] 
+
+  "5368" -> "5365"  [ label = "DDG: &amp;VAR185"] 
+
+  "5309" -> "5368"  [ label = "DDG: VAR55"] 
+
+  "5289" -> "5368"  [ label = "DDG: VAR55"] 
+
+  "5268" -> "5368"  [ label = "DDG: "] 
+
+  "5309" -> "5368"  [ label = "DDG: VAR46"] 
+
+  "5289" -> "5368"  [ label = "DDG: VAR46"] 
+
+  "5372" -> "5368"  [ label = "DDG: VAR84"] 
+
+  "5372" -> "5368"  [ label = "DDG: 2"] 
+
+  "5365" -> "5368"  [ label = "DDG: VAR185"] 
+
+  "5268" -> "5382"  [ label = "DDG: "] 
+
+  "5344" -> "5393"  [ label = "DDG: VAR84"] 
+
+  "5354" -> "5393"  [ label = "DDG: VAR84"] 
+
+  "5368" -> "5393"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5393"  [ label = "DDG: "] 
+
+  "5389" -> "5393"  [ label = "DDG: VAR185"] 
+
+  "5368" -> "5393"  [ label = "DDG: &amp;VAR185"] 
+
+  "5298" -> "5297"  [ label = "DDG: VAR84"] 
+
+  "5275" -> "5297"  [ label = "DDG: VAR85"] 
+
+  "5268" -> "5297"  [ label = "DDG: "] 
+
+  "5333" -> "5332"  [ label = "DDG: FUN18(VAR84) - VAR85"] 
+
+  "5344" -> "5354"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5354"  [ label = "DDG: "] 
+
+  "5344" -> "5372"  [ label = "DDG: VAR84"] 
+
+  "5354" -> "5372"  [ label = "DDG: VAR84"] 
+
+  "5368" -> "5372"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5372"  [ label = "DDG: "] 
+
+  "5289" -> "5298"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5298"  [ label = "DDG: "] 
+
+  "5269" -> "5309"  [ label = "DDG: VAR55"] 
+
+  "5268" -> "5309"  [ label = "DDG: "] 
+
+  "5270" -> "5309"  [ label = "DDG: VAR46"] 
+
+  "5277" -> "5309"  [ label = "DDG: VAR84"] 
+
+  "5317" -> "5316"  [ label = "DDG: FUN18(VAR84) - VAR85"] 
+
+  "5268" -> "5323"  [ label = "DDG: "] 
+
+  "5304" -> "5323"  [ label = "DDG: VAR192"] 
+
+  "5270" -> "5330"  [ label = "DDG: VAR46"] 
+
+  "5268" -> "5330"  [ label = "DDG: "] 
+
+  "5309" -> "5314"  [ label = "DDG: VAR46"] 
+
+  "5268" -> "5314"  [ label = "DDG: "] 
+
+  "5334" -> "5333"  [ label = "DDG: VAR84"] 
+
+  "5275" -> "5333"  [ label = "DDG: VAR85"] 
+
+  "5268" -> "5333"  [ label = "DDG: "] 
+
+  "5318" -> "5317"  [ label = "DDG: VAR84"] 
+
+  "5275" -> "5317"  [ label = "DDG: VAR85"] 
+
+  "5268" -> "5317"  [ label = "DDG: "] 
+
+  "5277" -> "5334"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5334"  [ label = "DDG: "] 
+
+  "5309" -> "5318"  [ label = "DDG: VAR84"] 
+
+  "5268" -> "5318"  [ label = "DDG: "] 
+
+  "5280" -> "5304"  [ label = "CDG: "] 
+
+  "5280" -> "5289"  [ label = "CDG: "] 
+
+  "5338" -> "5348"  [ label = "CDG: "] 
+
+  "5338" -> "5378"  [ label = "CDG: "] 
+
+  "5338" -> "5344"  [ label = "CDG: "] 
+
+  "5338" -> "5357"  [ label = "CDG: "] 
+
+  "5338" -> "5342"  [ label = "CDG: "] 
+
+  "5338" -> "5389"  [ label = "CDG: "] 
+
+  "5338" -> "5361"  [ label = "CDG: "] 
+
+  "5281" -> "5284"  [ label = "CDG: "] 
+
+  "5289" -> "5338"  [ label = "CDG: "] 
+
+  "5289" -> "5397"  [ label = "CDG: "] 
+
+  "5289" -> "5294"  [ label = "CDG: "] 
+
+  "5289" -> "5398"  [ label = "CDG: "] 
+
+  "5289" -> "5298"  [ label = "CDG: "] 
+
+  "5289" -> "5396"  [ label = "CDG: "] 
+
+  "5289" -> "5296"  [ label = "CDG: "] 
+
+  "5289" -> "5297"  [ label = "CDG: "] 
+
+  "5348" -> "5352"  [ label = "CDG: "] 
+
+  "5348" -> "5354"  [ label = "CDG: "] 
+
+  "5361" -> "5368"  [ label = "CDG: "] 
+
+  "5361" -> "5375"  [ label = "CDG: "] 
+
+  "5361" -> "5365"  [ label = "CDG: "] 
+
+  "5361" -> "5372"  [ label = "CDG: "] 
+
+  "5361" -> "5361"  [ label = "CDG: "] 
+
+  "5378" -> "5385"  [ label = "CDG: "] 
+
+  "5378" -> "5382"  [ label = "CDG: "] 
+
+  "5378" -> "5383"  [ label = "CDG: "] 
+
+  "5389" -> "5393"  [ label = "CDG: "] 
+
+  "5304" -> "5333"  [ label = "CDG: "] 
+
+  "5304" -> "5309"  [ label = "CDG: "] 
+
+  "5304" -> "5323"  [ label = "CDG: "] 
+
+  "5304" -> "5332"  [ label = "CDG: "] 
+
+  "5304" -> "5334"  [ label = "CDG: "] 
+
+  "5304" -> "5330"  [ label = "CDG: "] 
+
+  "5304" -> "5324"  [ label = "CDG: "] 
+
+  "5304" -> "5326"  [ label = "CDG: "] 
+
+  "5309" -> "5338"  [ label = "CDG: "] 
+
+  "5309" -> "5397"  [ label = "CDG: "] 
+
+  "5309" -> "5398"  [ label = "CDG: "] 
+
+  "5309" -> "5317"  [ label = "CDG: "] 
+
+  "5309" -> "5318"  [ label = "CDG: "] 
+
+  "5309" -> "5396"  [ label = "CDG: "] 
+
+  "5309" -> "5314"  [ label = "CDG: "] 
+
+  "5309" -> "5316"  [ label = "CDG: "] 
+
+}

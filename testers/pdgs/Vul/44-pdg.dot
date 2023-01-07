@@ -1,0 +1,240 @@
+
+digraph "FUN1" {  
+
+"10113" [label = "(METHOD,FUN1)<SUB>34</SUB>" ]
+
+"10175" [label = "(METHOD_RETURN,unsigned int)<SUB>34</SUB>" ]
+
+"10114" [label = "(PARAM,GetBitContext*VAR7)<SUB>34</SUB>" ]
+
+"10115" [label = "(PARAM,int VAR21)<SUB>34</SUB>" ]
+
+"10116" [label = "(PARAM,int VAR22)<SUB>34</SUB>" ]
+
+"10119" [label = "(&lt;operator&gt;.assignment,VAR23 = FUN2(VAR7))<SUB>36</SUB>" ]
+
+"10173" [label = "(RETURN,return VAR23;,return VAR23;)<SUB>53</SUB>" ]
+
+"10124" [label = "(&lt;operator&gt;.greaterThan,VAR23 &gt; 8)<SUB>38</SUB>" ]
+
+"10174" [label = "(IDENTIFIER,VAR23,return VAR23;)<SUB>53</SUB>" ]
+
+"10121" [label = "(FUN2,FUN2(VAR7))<SUB>36</SUB>" ]
+
+"10128" [label = "(&lt;operator&gt;.assignment,VAR23 = FUN3(VAR7, VAR22))<SUB>40</SUB>" ]
+
+"10130" [label = "(FUN3,FUN3(VAR7, VAR22))<SUB>40</SUB>" ]
+
+"10136" [label = "(&lt;operator&gt;.notEquals,VAR21 != 1)<SUB>41</SUB>" ]
+
+"10141" [label = "(&lt;operator&gt;.assignment,VAR24 = FUN4(VAR7, VAR21))<SUB>42</SUB>" ]
+
+"10146" [label = "(&lt;operator&gt;.assignment,VAR23 = (VAR23 &lt;&lt; VAR21) - VAR23)<SUB>45</SUB>" ]
+
+"10154" [label = "(&lt;operator&gt;.greaterThan,VAR24 &gt; 1)<SUB>47</SUB>" ]
+
+"10143" [label = "(FUN4,FUN4(VAR7, VAR21))<SUB>42</SUB>" ]
+
+"10148" [label = "(&lt;operator&gt;.subtraction,(VAR23 &lt;&lt; VAR21) - VAR23)<SUB>45</SUB>" ]
+
+"10158" [label = "(&lt;operator&gt;.assignmentPlus,VAR23 += VAR24 - 1)<SUB>48</SUB>" ]
+
+"10163" [label = "(FUN5,FUN5(VAR7, VAR21))<SUB>49</SUB>" ]
+
+"10149" [label = "(&lt;operator&gt;.shiftLeft,VAR23 &lt;&lt; VAR21)<SUB>45</SUB>" ]
+
+"10168" [label = "(FUN5,FUN5(VAR7, VAR21 - 1))<SUB>51</SUB>" ]
+
+"10160" [label = "(&lt;operator&gt;.subtraction,VAR24 - 1)<SUB>48</SUB>" ]
+
+"10170" [label = "(&lt;operator&gt;.subtraction,VAR21 - 1)<SUB>51</SUB>" ]
+
+  "10173" -> "10175"  [ label = "DDG: &lt;RET&gt;"] 
+
+  "10115" -> "10175"  [ label = "DDG: VAR21"] 
+
+  "10116" -> "10175"  [ label = "DDG: VAR22"] 
+
+  "10121" -> "10175"  [ label = "DDG: VAR7"] 
+
+  "10119" -> "10175"  [ label = "DDG: FUN2(VAR7)"] 
+
+  "10124" -> "10175"  [ label = "DDG: VAR23"] 
+
+  "10124" -> "10175"  [ label = "DDG: VAR23 &gt; 8"] 
+
+  "10136" -> "10175"  [ label = "DDG: VAR21"] 
+
+  "10136" -> "10175"  [ label = "DDG: VAR21 != 1"] 
+
+  "10141" -> "10175"  [ label = "DDG: FUN4(VAR7, VAR21)"] 
+
+  "10146" -> "10175"  [ label = "DDG: VAR23"] 
+
+  "10148" -> "10175"  [ label = "DDG: VAR23 &lt;&lt; VAR21"] 
+
+  "10146" -> "10175"  [ label = "DDG: (VAR23 &lt;&lt; VAR21) - VAR23"] 
+
+  "10154" -> "10175"  [ label = "DDG: VAR24"] 
+
+  "10154" -> "10175"  [ label = "DDG: VAR24 &gt; 1"] 
+
+  "10168" -> "10175"  [ label = "DDG: VAR7"] 
+
+  "10170" -> "10175"  [ label = "DDG: VAR21"] 
+
+  "10168" -> "10175"  [ label = "DDG: VAR21 - 1"] 
+
+  "10168" -> "10175"  [ label = "DDG: FUN5(VAR7, VAR21 - 1)"] 
+
+  "10158" -> "10175"  [ label = "DDG: VAR23"] 
+
+  "10160" -> "10175"  [ label = "DDG: VAR24"] 
+
+  "10158" -> "10175"  [ label = "DDG: VAR24 - 1"] 
+
+  "10163" -> "10175"  [ label = "DDG: VAR7"] 
+
+  "10163" -> "10175"  [ label = "DDG: VAR21"] 
+
+  "10163" -> "10175"  [ label = "DDG: FUN5(VAR7, VAR21)"] 
+
+  "10128" -> "10175"  [ label = "DDG: VAR23"] 
+
+  "10130" -> "10175"  [ label = "DDG: VAR7"] 
+
+  "10130" -> "10175"  [ label = "DDG: VAR22"] 
+
+  "10128" -> "10175"  [ label = "DDG: FUN3(VAR7, VAR22)"] 
+
+  "10113" -> "10114"  [ label = "DDG: "] 
+
+  "10113" -> "10115"  [ label = "DDG: "] 
+
+  "10113" -> "10116"  [ label = "DDG: "] 
+
+  "10121" -> "10119"  [ label = "DDG: VAR7"] 
+
+  "10174" -> "10173"  [ label = "DDG: VAR23"] 
+
+  "10146" -> "10173"  [ label = "DDG: VAR23"] 
+
+  "10124" -> "10173"  [ label = "DDG: VAR23"] 
+
+  "10128" -> "10173"  [ label = "DDG: VAR23"] 
+
+  "10158" -> "10173"  [ label = "DDG: VAR23"] 
+
+  "10113" -> "10174"  [ label = "DDG: "] 
+
+  "10114" -> "10121"  [ label = "DDG: VAR7"] 
+
+  "10113" -> "10121"  [ label = "DDG: "] 
+
+  "10119" -> "10124"  [ label = "DDG: VAR23"] 
+
+  "10113" -> "10124"  [ label = "DDG: "] 
+
+  "10130" -> "10128"  [ label = "DDG: VAR7"] 
+
+  "10130" -> "10128"  [ label = "DDG: VAR22"] 
+
+  "10121" -> "10130"  [ label = "DDG: VAR7"] 
+
+  "10113" -> "10130"  [ label = "DDG: "] 
+
+  "10116" -> "10130"  [ label = "DDG: VAR22"] 
+
+  "10115" -> "10136"  [ label = "DDG: VAR21"] 
+
+  "10113" -> "10136"  [ label = "DDG: "] 
+
+  "10143" -> "10141"  [ label = "DDG: VAR7"] 
+
+  "10143" -> "10141"  [ label = "DDG: VAR21"] 
+
+  "10148" -> "10146"  [ label = "DDG: VAR23 &lt;&lt; VAR21"] 
+
+  "10148" -> "10146"  [ label = "DDG: VAR23"] 
+
+  "10121" -> "10143"  [ label = "DDG: VAR7"] 
+
+  "10113" -> "10143"  [ label = "DDG: "] 
+
+  "10136" -> "10143"  [ label = "DDG: VAR21"] 
+
+  "10149" -> "10148"  [ label = "DDG: VAR23"] 
+
+  "10149" -> "10148"  [ label = "DDG: VAR21"] 
+
+  "10113" -> "10148"  [ label = "DDG: "] 
+
+  "10141" -> "10154"  [ label = "DDG: VAR24"] 
+
+  "10113" -> "10154"  [ label = "DDG: "] 
+
+  "10160" -> "10158"  [ label = "DDG: VAR24"] 
+
+  "10160" -> "10158"  [ label = "DDG: 1"] 
+
+  "10124" -> "10149"  [ label = "DDG: VAR23"] 
+
+  "10113" -> "10149"  [ label = "DDG: "] 
+
+  "10143" -> "10149"  [ label = "DDG: VAR21"] 
+
+  "10146" -> "10158"  [ label = "DDG: VAR23"] 
+
+  "10113" -> "10158"  [ label = "DDG: "] 
+
+  "10143" -> "10163"  [ label = "DDG: VAR7"] 
+
+  "10113" -> "10163"  [ label = "DDG: "] 
+
+  "10149" -> "10163"  [ label = "DDG: VAR21"] 
+
+  "10154" -> "10160"  [ label = "DDG: VAR24"] 
+
+  "10113" -> "10160"  [ label = "DDG: "] 
+
+  "10143" -> "10168"  [ label = "DDG: VAR7"] 
+
+  "10113" -> "10168"  [ label = "DDG: "] 
+
+  "10170" -> "10168"  [ label = "DDG: VAR21"] 
+
+  "10170" -> "10168"  [ label = "DDG: 1"] 
+
+  "10149" -> "10170"  [ label = "DDG: VAR21"] 
+
+  "10113" -> "10170"  [ label = "DDG: "] 
+
+  "10124" -> "10136"  [ label = "CDG: "] 
+
+  "10124" -> "10130"  [ label = "CDG: "] 
+
+  "10124" -> "10128"  [ label = "CDG: "] 
+
+  "10136" -> "10148"  [ label = "CDG: "] 
+
+  "10136" -> "10143"  [ label = "CDG: "] 
+
+  "10136" -> "10154"  [ label = "CDG: "] 
+
+  "10136" -> "10141"  [ label = "CDG: "] 
+
+  "10136" -> "10149"  [ label = "CDG: "] 
+
+  "10136" -> "10146"  [ label = "CDG: "] 
+
+  "10154" -> "10163"  [ label = "CDG: "] 
+
+  "10154" -> "10160"  [ label = "CDG: "] 
+
+  "10154" -> "10158"  [ label = "CDG: "] 
+
+  "10154" -> "10170"  [ label = "CDG: "] 
+
+  "10154" -> "10168"  [ label = "CDG: "] 
+
+}

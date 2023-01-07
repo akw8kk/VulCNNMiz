@@ -1,0 +1,15 @@
+static void FUN1()
+{
+    wchar_t * VAR1;
+    CWE134_Uncontrolled_Format_String__wchar_t_listen_socket_fprintf_34_unionType VAR2;
+    wchar_t VAR3[100] = VAR4"";
+    VAR1 = VAR3;
+    
+    wcscpy(VAR1, VAR4"");
+    VAR2.VAR5 = VAR1;
+    {
+        wchar_t * VAR1 = VAR2.VAR6;
+        
+        fwprintf(VAR7, VAR1);
+    }
+}

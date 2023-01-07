@@ -1,0 +1,14 @@
+
+digraph "&lt;clinit&gt;" {  
+
+"25" [label = "(METHOD,&lt;clinit&gt;)" ]
+
+"31" [label = "(METHOD_RETURN,ANY)" ]
+
+"27" [label = "(&lt;operator&gt;.assignment,VAR18 = 2)<SUB>41</SUB>" ]
+
+  "27" -> "31"  [ label = "DDG: VAR18"] 
+
+  "25" -> "27"  [ label = "DDG: "] 
+
+}
