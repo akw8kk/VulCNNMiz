@@ -154,7 +154,7 @@ def go(path,folder):
     
     substring = path[0:int(len(path)-4)]
     
-    outputpath = "./pythonoutputs/dictionaries/" + folder
+    outputpath = "./dictionaries/" + folder
     isExist = os.path.exists(outputpath)
     if not isExist:
    # Create a new directory because it does not exist
